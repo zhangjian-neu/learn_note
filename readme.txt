@@ -29,3 +29,8 @@ Git is free software.
 网友理解 git diff
     git diff    #是工作区(work dict)和暂存区(stage)的比较
     git diff --cached    #是暂存区(stage)和分支(master)的比较
+    
+管理修改 小结
+    为什么Git比其他版本控制系统设计得优秀，因为Git跟踪并管理的是修改，而非文件。
+    
+change 1
