@@ -1,13 +1,20 @@
 This is just an example.
 It should be in  ~/learngit
 
+廖雪峰网站
+https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000
 
-Git is a version control system.
-Git is free software.
 
+创建文本库 小结
+    创建一个版本库非常简单，首先，选择一个合适的地方，创建一个空目录：
 
-小结1
-初始化一个Git仓库，使用git init命令。
+    $ mkdir learngit
+    $ cd learngit
+    $ pwd
+    /Users/michael/learngit
+    pwd命令用于显示当前目录。在我的Mac上，这个仓库位于/Users/michael/learngit。
+
+    初始化一个Git仓库，使用git init命令。
 
 添加文件到Git仓库，分两步：
 
