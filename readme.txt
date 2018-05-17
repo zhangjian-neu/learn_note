@@ -64,3 +64,11 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     $ git checkout -- test.txt
     git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还。
     
+设置 SSH
+    1. 在主目录下，使用 $ ssh-keygen -t rsa -C "youremail@example.com" 创建ssh key。
+    在github网站的步骤为：登录网站--点击我的头像，找到Settings--屏幕左侧找到SSH and GPG keys
+    
+    2. 使用 ssh -T git@github.com 测试当前电脑是否github网站成功连接。如果未成功，删除.ssh文件夹，从新生成ssh key， 然后在网站上从新设置。
+    
+    3. 使用命令 $ cd ~/learngit， 然后使用$ git remote add origin git@github.com:michaelliao/learngit.git 或者 $ git push -u origin master 推送
+    把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。
