@@ -81,6 +81,7 @@ clone
     大家在使用同一个版本库时，每个人可以创建一个分支，用于保存自己目前尚未完成的工作。
     首先，我们创建dev分支，然后切换到dev分支：
 
+创建分支    
     查看分支：git branch
 
     创建分支：git branch <name>
@@ -93,6 +94,9 @@ clone
 
     删除分支：git branch -d <name>
     
+解决冲突
+    当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
+    用git log --graph命令可以看到分支合并图。
 
-Creating a new branch is quick & simple.    
+    
 
