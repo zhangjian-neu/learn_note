@@ -36,15 +36,12 @@ Git is free software.
     cat <filename> 其功能是显示在工作区、暂存区和分支里同名文档的最新修改版本的内容。
 
 撤销修改 小结
-    1. 命令git checkout readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：
+    1. 文件已修改，未add到暂存区:
+    git checkout -- file可还原
 
-    一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
-
-    一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
-
-    总之，就是让这个文件回到最近一次git commit或git add时的状态。
-    
-    2. 在commit之前, 命令git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区.
+    2. 文件已修改，并add到暂存区未commit：
+    git read HEAD file
+    git checkout -- file可还原
     3.假设你不但改错了东西，还从暂存区提交到了版本库，怎么办呢？还记得版本回退一节吗？可以回退到上一个版本。不过，这是有条件的，就是你还没有把自己的本地版本库推送到远程。还记得Git是分布式版本控制系统吗？我们后面会讲到远程版本库，一旦你把“stupid boss”提交推送到远程版本库，你就真的惨了……
 
 删除修改 小结
