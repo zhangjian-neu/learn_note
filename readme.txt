@@ -25,3 +25,7 @@ Git is free software.
 工作区与暂存区 小结
     工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
     Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
+    
+网友理解 git diff
+    git diff    #是工作区(work dict)和暂存区(stage)的比较
+    git diff --cached    #是暂存区(stage)和分支(master)的比较
