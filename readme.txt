@@ -72,3 +72,11 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     
     3. 使用命令 $ cd ~/learngit， 然后使用$ git remote add origin git@github.com:michaelliao/learngit.git 或者 $ git push -u origin master 推送
     把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。
+
+clone
+    使用命令$ git clone git@github.com...
+    如果有多个人协作开发，那么每个人各自从远程克隆一份就可以了。
+    
+分支
+    大家在使用同一个版本库时，每个人可以创建一个分支，用于保存自己目前尚未完成的工作。
+    
