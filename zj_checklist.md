@@ -1,3 +1,22 @@
+Checklist 使用的资料分类
+1 Python 相关 3
+1.1 Python 常见问题
+1.2 Python 相关软件
+1.3 Python 官方文档
+1.4 廖雪峰-Python3-面向对象编程
+1.4.1 面向对象编程
+1.4.2 定制类-使用魔法函数
+1.5 流畅的 Pyhton
+2 Numerical Optimization 7
+2.1 Quadratic programming
+3 Machine Learning 9
+3.1 Basic Machine Learning - Andrew NG .
+3.1.1 Linear Regression video-2
+3.1.2 Advice for Applying Machine Learning video-6  9
+3.1.3 Machine Learning System Design video-6 10
+4 Useful Software Tools 11
+4.1 LaTex
+
 # 常用Linux 插件及配置技巧
 
 1. 为Firefox安装Adobe Flash Player： (**最好使用google chrome**) https://blog.csdn.net/linuxnews/article/details/51750195
@@ -419,11 +438,17 @@ https://blog.csdn.net/u012348774/article/details/81042843
   1. 关闭Device Guard，至Disable。
   2. 关闭 Boot Security，至Disable。
   3. 在应用程序的NVIDIA X Server Settings中，进入PEIME Profiles选项，设置显卡优先级。
-  4. 使用以下两条命令更新显卡：
-  ubuntu-drivers devices
+  4. 使用以下两条命令更新显卡：  
+  ubuntu-drivers devices  
   sudo ubuntu-drivers autoinstall
-15  tex
+
+### 15  tex
 https://blog.csdn.net/qq_41814939/article/details/82288145
+
+在安装双系统（Win10+Ubuntu）的系统中，可以将 tex 文件夹放在 Win10 系
+统中，这样两个系统皆可查看编辑 tex 文件。
+  - Ubuntu 下安装 TexLive、 TexStudio 及使用 XeLatex。
+  - Win10 下安装 TexLive、 TexStudio 及使用 XeLatex。
 
 ### 15  机器学习的资料
 1. 前阿里资深工程师的总结
